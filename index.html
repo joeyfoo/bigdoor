@@ -1,42 +1,82 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="robots" content="noindex, nofollow">
 
-    <title>BIG DOOR</title>
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet"> 
-    <style>
-        html{
-            height: 100%;
-            background-color: #222;
-            background-image: url('bigdoor.jpg');
-            background-size: contain;
-            background-position: center;
-            background-repeat: no-repeat;
-            color: transparent;
-        }
-        h1{
-            font-size: 1.5rem;
-            font-family: 'Open Sans', sans-serif;
-            font-weight: 400;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            width: 100%;
-            color: #fff;
-            background-color: rgba(0, 0, 0, 0.5);
-            line-height: 200%;
-        }
-    </style>
-  </head>
-  <body>
-    <h1>A really big fucking door coming right up!</h1>
-  </body>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="robots" content="noindex, nofollow">
+
+  <title>BIG DOOR</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+  <style>
+    html {
+      height: 100%;
+      background-color: #6f6d70;
+      color: transparent;
+
+      background-image: url('bigdoor-blur.jpg');
+      background-size: 100% 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    body{
+      height: 100%;
+      background-color: transparent;
+
+      background-image: url('bigdoor.jpg');
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    h1 {
+      font-size: 35vw;
+
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+
+      position: fixed;
+      left: calc(50% - 0.0em);
+      top: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+
+      color: #fff;
+      line-height: 1;
+      margin: 0;
+    }
+    footer{
+      font-size: 0.75rem;
+      opacity: 0.5;
+      padding: 1rem;
+
+      position: fixed;
+      left: 0;
+      bottom: 0;
+
+      transition: ease-in-out 0.25s;
+    }
+    footer:hover{
+      opacity: 1;
+    }
+    footer a, footer a:hover{
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>
+    DOOR
+  </h1>
+  <footer>
+    <a href="https://github.com/joeyfoo/bigdoor">GitHub + What's this?</a>
+    | 
+    <a href="https://commons.wikimedia.org/wiki/File:Knocking_at_front_door_of_The_National_Archives_Building_-_01.jpg">Background (CC-BY-4.0) image by Jarekt via Wikimedia Commons</a>
+  </footer>
+</body>
+
 </html>

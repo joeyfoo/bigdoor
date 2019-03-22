@@ -2,6 +2,8 @@
 
 BIG DOOR
 
+**This repository is archived because the meme is well and truly dead.**
+
 ## What's this?
 
 Memes. 
